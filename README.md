@@ -9,10 +9,11 @@
 
 This solution can be deployed by running following command.
 
-Please change subnet and vpc value in deploy.sh ( Subnet will internet access is preferable).
-Also Please over ride the certificat arn in Cloudformation template
+Please change subnet and vpc value in deploy.sh ( Public Subnets are considered for this solution).
+Also Please over ride the certificat arn in Cloudformation template.
 
-sh deploy.sh
+
+##sh deploy.sh
 
 #### Steps ( performed while running this script)
 
