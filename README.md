@@ -30,6 +30,6 @@ sh deploy.sh
 
 By Clicking DNS name of the ALB in the output of deployed stack
 
-such as: webappLoadBalancer-456111887.us-east-1.elb.amazonaws.com
+such as: https://webappLoadBalancer-456111887.us-east-1.elb.amazonaws.com
 
 
