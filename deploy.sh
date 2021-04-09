@@ -1,9 +1,7 @@
 #!/bin/bash
 
-#stop on error
 set +e
 
-#List of regions where we will upload zip files
 AccountId=$(aws sts get-caller-identity|jq -r .Account)
 echo $AccountId
 aws ecr create-repository --repository-name nodewebapp
